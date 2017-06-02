@@ -1,2 +1,0 @@
-#Brightboard
-###By Lacie Wilson
