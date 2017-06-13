@@ -265,6 +265,10 @@ header .hero {
 .testimonials ul li {
   list-style-type: none;
 }
+
+.testimonials blockquote.stag {
+  margin-top: 20px;
+}
 .testimonials blockquote {
   color:#FFFFFF;
   text-align: left;
