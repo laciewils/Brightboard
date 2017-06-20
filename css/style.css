@@ -481,7 +481,8 @@ padding: 10px 15px;
 border-radius: 4px;
 left: 5px;
 top: 15px;
-}v
+}
+
  .left-nav {
    height: 100vh;
    width:14.66666667%;
@@ -491,6 +492,12 @@ top: 15px;
    position: fixed;
    display:block;
  }
+
+ .left-nav .bulbs {
+    width: 100%;
+ }
+
+
  .left-nav .site-logo {
    padding:20px 0;
    display:block;
@@ -522,7 +529,7 @@ top: 15px;
  }
 
  .left-nav .items ul li a.active {
-   background-color: #ffffff;
+   background-color: #E2E2E2;
  }
 
 
@@ -532,18 +539,22 @@ top: 15px;
    float:right;
    width:98%;
    position: relative;
+   background: #E2E2E2;
  }
  .content .container.topbar{
    background-color: #FFFFFF;
- }
- .content .container{
-   background-color: #E2E2E2;
+   margin-top: -25px;
+   margin-left: -10px;
+   margin-right: -10px;
+   margin-bottom: 20px;
  }
  .content .header {
    margin:0 1% 20px;
  }
  .content .topbar {
    background: #FFFFFF;
+   width: 100%;
+   padding-top: 20px;
  }
  .content .header h1 {
    font-family: "Roboto Slab", Helvetica, Arial, sans-serif;
@@ -554,6 +565,8 @@ top: 15px;
    line-height: 44px;
    float: left;
    display:inline-block;
+   margin-left: 20px;
+
  }
  .content .header p {
    font-family: "Roboto Slab", Helvetica, Arial, sans-serif;
@@ -565,6 +578,15 @@ top: 15px;
    float: left;
    display:inline-block;
  }
+ .content .header .sortbytriangle {
+   width: 0;
+   height: 0;
+   border-style: solid;
+   border-width: 8px 5px 0 5px;
+   border-color: #777 transparent transparent transparent;
+   margin-top: 24px;
+   margin-left: 5px;
+ }
  .content .header > a {
    float:right;
  }
@@ -574,7 +596,7 @@ top: 15px;
     width:20%;
     top:0;
     right:0;
-    padding:10px 0;
+    padding:20px 0;
   }
   .content .settings img {
     height:35px;
@@ -601,6 +623,11 @@ top: 15px;
     margin-top: 8px;
   }
 
+  .content .settings .settingsmenu .wheel {
+    color:#777;
+    margin-right: 10px;
+  }
+
  .content-item {
    width:96%;
    margin:0 2% 25px;
@@ -620,6 +647,19 @@ top: 15px;
  .item-box.addbox{
    background-color: #4ABDAC;
  }
+ .item-box.addbox .btn{
+   margin-left: 45px;
+
+ }
+
+ .item-box.addbox .thoughtbubble{
+   color: #FFFFFF;
+   margin-left: 45px;
+   margin-top: 70px;
+
+ }
+
+
  .item-box > img {
     position:absolute;
     height:100%;
@@ -634,11 +674,14 @@ top: 15px;
     font-size: 15px;
     line-height: 17px;
     margin:0;
-    height:40px;
+    margin-left: -20px;
+    height:30px;
     position: absolute;
     top:0;
     width: 100%;
     background-color: #4ABDAC;
+    padding-top: 15px;
+    padding-left: 20px;
   }
   .item-box h2 a {
     color: #000;
