@@ -646,19 +646,25 @@ top: 15px;
 
  .item-box.addbox{
    background-color: #4ABDAC;
+   display: flex;
+   align-items: center;
+   justify-content: center;
  }
  .item-box.addbox .btn{
-   margin-left: 45px;
 
  }
 
  .item-box.addbox .thoughtbubble{
    color: #FFFFFF;
-   margin-left: 45px;
-   margin-top: 70px;
-
+   margin-bottom: 10px;
  }
 
+ .add {
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
+ }
 
  .item-box > img {
     position:absolute;
