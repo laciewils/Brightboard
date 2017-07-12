@@ -89,7 +89,7 @@ header nav ul {
   display: flex;
   float: right;
   margin: 0;
-  text-align: right;
+  text-align: center;
   justify-content: center;
   align-items: center;
 }
@@ -146,7 +146,6 @@ header .hero p {
 }
 header .hero img {
   max-width: 100%;
-  padding-top: 10px;
 }
 
 
@@ -341,7 +340,7 @@ footer {
   background-image: linear-gradient(to top,
   #F7B733 0%, #F7B733 50%, #4ABDAC 50%, #4ABDAC 100%);
   color: #FFF;
-  height: 150px;
+  height: 200px;
   overflow: hidden;
   position: relative;
   z-index: 0;
@@ -367,7 +366,7 @@ footer .right-footer-block {
 footer .logo {
   display: block;
   margin: 0 auto;
-  padding: 2.35em 0;
+  padding: 1em 0;
 }
 
 @media (min-width: 768px) {
@@ -598,6 +597,8 @@ footer .logo {
   right: 0;
   top: 0;
   width: 20%;
+  justify-content: center;
+  align-items: center;
 }
 .content .settings img {
   border-radius: 50%;
