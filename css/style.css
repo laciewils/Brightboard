@@ -596,7 +596,6 @@ footer .logo {
   position: absolute;
   right: 0;
   top: 0;
-  width: 20%;
   justify-content: center;
   align-items: center;
 }
@@ -628,6 +627,7 @@ footer .logo {
 .content .settings .settingsmenu .wheel {
   color: #777;
   margin-right: 10px;
+  margin-left: 10px;
 }
 
 .content-item {
