@@ -133,6 +133,16 @@ header .hero {
   }
   header .hero {
     margin: auto;
+    padding-left: 15px;
+  }
+  header .hero-wrapper {
+    text-align: center;
+  }
+  header nav .one-half {
+    width: 16%;
+  }
+  header nav .signs {
+    width: 76%;
   }
 }
 @media screen and (min-width: 600px) {
@@ -144,6 +154,25 @@ header .hero {
   }
   header .hero p {
     text-align: left;
+  }
+  header .hero-wrapper {
+    text-align: left;
+    padding-left: 20px;
+  }
+  header nav .site-logo {
+    width: 46%;
+  }
+  header nav .signs {
+    width: 46%;
+
+  }
+}
+@media screen and (min-width: 768px) {
+  header nav .site-logo {
+    width: 46%;
+  }
+  header nav .signs {
+    width: 46%;
   }
 }
 
